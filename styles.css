@@ -1,0 +1,132 @@
+/* GLOBAL */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body{
+  background: #f4f6f9;
+  color: #222;
+  padding-bottom: 50px;
+}
+
+header{
+  text-align: center;
+  padding: 30px;
+  background: #0d6efd;
+  color: white;
+  margin-bottom: 20px;
+}
+
+header h1{
+  font-size: 32px;
+}
+
+section{
+  width: 90%;
+  max-width: 600px;
+  margin: 20px auto;
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+/* TIMER SECTION */
+.timer-container{
+  text-align: center;
+}
+
+#timer{
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  display: block;
+}
+
+.timer-buttons button{
+  padding: 10px 18px;
+  border: none;
+  background: #0d6efd;
+  color: white;
+  border-radius: 8px;
+  margin: 3px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.timer-buttons button:hover{
+  background: #004aad;
+}
+
+/* TODO SECTION */
+.todo-input{
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.todo-input input{
+  flex: 1;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.todo-input button{
+  padding: 10px 15px;
+  background: #28a745;
+  color: white;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}
+
+.todo-input button:hover{
+  background: #1e8436;
+}
+
+#taskList{
+  list-style: none;
+  margin-top: 10px;
+}
+
+.task{
+  display: flex;
+  justify-content: space-between;
+  background: #eef2f7;
+  padding: 12px;
+  border-radius: 8px;
+  margin-bottom: 8px;
+}
+
+.task span{
+  font-size: 16px;
+}
+
+.completed{
+  text-decoration: line-through;
+  opacity: 0.6;
+}
+
+.task button{
+  padding: 6px 10px;
+  background: crimson;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.task button:hover{
+  background: rgb(163, 0, 38);
+}
+
+/* FOOTER */
+.footer{
+  text-align: center;
+  margin-top: 30px;
+  color: #555;
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Focus Task App</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header class="header">
+    <h1>Focus Task App</h1>
+    <p>Stay productive with tasks + timer</p>
+  </header>
+
+  <!-- TIMER SECTION -->
+  <section class="timer-section">
+    <h2>Focus Timer</h2>
+    <div class="timer-container">
+      <span id="timer">25:00</span>
+      <div class="timer-buttons">
+        <button id="startBtn">Start</button>
+        <button id="pauseBtn">Pause</button>
+        <button id="resetBtn">Reset</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- TODO SECTION -->
+  <section class="todo-section">
+    <h2>Your Tasks</h2>
+    <div class="todo-input">
+      <input type="text" id="taskInput" placeholder="Enter a new task...">
+      <button id="addTaskBtn">Add</button>
+    </div>
+
+    <ul id="taskList"></ul>
+  </section>
+
+  <footer class="footer">
+    <p>© 2025 Focus Task App</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
